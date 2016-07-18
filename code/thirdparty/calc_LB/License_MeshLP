@@ -1,0 +1,39 @@
+DESCRIPTION
+	MeshLP software takes a triangle mesh as input, and computes the mesh
+	Laplace operator which approximates the Laplace-Beltrami operator of the
+	surface approximated by the triangle mesh. 
+	
+	The source code as well as the binary code is distributed for Linux. 
+	The source code is ready to be compiled on other platform though it
+	is not tested. 
+
+
+LEGAL TERMS
+   	This software is copyrighted by Jian Sun (sunjian@stanford.edu, sunjian0813@gmail.com). 
+	This program is for academic research use only.  Any publication using the software
+	should mention the following reference:
+
+	Mikhail Belkin, Jian Sun and Yusu Wang, Discrete Laplace Operator on Meshed Surfaces. SoCG 2008 pp. 278-287.
+
+
+	This program uses geodesic (http://code.google.com/p/geodesic/)
+	It has the MIT license:
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+
+
