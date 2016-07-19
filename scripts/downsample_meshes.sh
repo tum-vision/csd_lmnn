@@ -3,7 +3,7 @@
 root_dir=/projects/csd_lmnn;
 
 mlx_script=${root_dir}/scripts/QECD_20k.mlx
-shapes_in_dir=${root_dir}/data/SHREC14_HUMAN/REAL/original_meshes
+shapes_in_dir=${root_dir}/data/SHREC14_HUMAN/REAL/resol_original
 shapes_out_dir=${root_dir}/data/SHREC14_HUMAN/REAL/resol_20kf
 
 mkdir -p $shapes_out_dir

@@ -8,7 +8,7 @@ global DIRS;
 DIRS.ROOT = fileparts( mfilename('fullpath') );
 
 % Root directory for data
-DIRS.DATA_ROOT = fullfile(DIRS.ROOT, 'data');
+DIRS.DATA_ROOT = fullfile(fileparts(DIRS.ROOT), 'data');
 
 % Dirs to add to path
 DIRS_TO_PATH = {'compute_for_set', ... 
