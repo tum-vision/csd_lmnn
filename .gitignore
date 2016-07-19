@@ -45,9 +45,9 @@ Thumbs.db
 *.gz
 *.bbl
 
-# Matlab fig #
+# Matlab figure files #
 ##############
-query_class_16.fig
+*.fig
 
 # Data directory #
 ##################
