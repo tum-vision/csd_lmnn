@@ -41,6 +41,11 @@ A bash script ``` downsample_meshes.sh ``` that uses ```meshlabserver``` is prov
 You have to customize the file ```./code/toplevel_func/init_dataset.m``` to set the paths to your data directories correctly. 
 
 
+#### Building mex files
+The code for computing the Laplace Beltrami operator is from MeshLP and is relatively old. 
+You might need to adjust your mex compiler settings to get it working for your platform. 
+A script ```./code/thirdparty/calc_LB/buildmex.m``` is included that worked for me along with the resulted executable.
+
 
 ## <a name="paper">Publication</a>
 If you use this code in your work, please cite the following paper.
@@ -59,6 +64,7 @@ Ioannis Chiotellis, Rudolph Triebel, Thomas Windheuser and Daniel Cremers, _"Non
 
 ## <a name="others"> License and Contact</a>
 
-
+This work is released under the[GNU General Public License Version 3 (GPLv3)](http://www.gnu.org/licenses/gpl.html).
+Nevertheless it relies on other projects (see directory ```./code/thirdparty```) which are released under their own licences.
 
 Contact **John Chiotellis** [:envelope:](mailto:chiotell@in.tum.de) for questions, comments and reporting bugs.
