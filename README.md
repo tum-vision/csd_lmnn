@@ -64,7 +64,7 @@ Ioannis Chiotellis, Rudolph Triebel, Thomas Windheuser and Daniel Cremers, _"Non
 
 ## <a name="others"> License and Contact</a>
 
-This work is released under the[GNU General Public License Version 3 (GPLv3)](http://www.gnu.org/licenses/gpl.html).
+This work is released under the [GNU General Public License Version 3 (GPLv3)](http://www.gnu.org/licenses/gpl.html).
 Nevertheless it relies on other projects (see directory ```./code/thirdparty```) which are released under their own licences.
 
 Contact **John Chiotellis** [:envelope:](mailto:chiotell@in.tum.de) for questions, comments and reporting bugs.
