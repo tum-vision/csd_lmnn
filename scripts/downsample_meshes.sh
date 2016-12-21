@@ -86,6 +86,6 @@ cd $SHAPES_IN_DIR
 for i in $( ls );
 do
 	echo Downsampling shape $i
-	meshlabserver -i $SHAPES_IN_DIR"/"$i -o $SHAPES_OUT_DIR"/"$i -s $MLX_SCRIPT
+	meshlabserver -i ${SHAPES_IN_DIR}${i} -o ${SHAPES_OUT_DIR}${i} -s $MLX_SCRIPT
 done
 
